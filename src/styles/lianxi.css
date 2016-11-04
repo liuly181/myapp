@@ -1,0 +1,82 @@
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 0.32rem; }
+
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width:100%;
+  height:100%;
+   }
+
+/*--------main2-------------*/
+.main2 {
+  -webkit-box-flex: 1;
+  position: absolute;
+  height:100%;
+  width: 100%;
+  
+ 
+}
+  .main2 .content {
+   
+    margin: 3.4rem auto 0;
+    width: 90%;
+    height: 2.94rem;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem; }
+    .main2 .content h1 {
+      text-align: center;
+      height: 1.82rem;
+      line-height: 1.82rem;
+      border-bottom: 1px solid #ccc; }
+    .main2 .content .btns {
+      width: 100%;
+      display: -webkit-box; }
+      .main2 .content .btns p {
+        width: 50%;
+        text-align: center;
+        line-height: 1.09rem;
+        border-right: 1px solid #ccc;
+        color: #000FD0;
+        font-weight: 900; }
+
+/*--------footer-------------*/
+.footer {
+  width: 100%;
+  height: 1.02rem;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  z-index: 9999; }
+  .footer a {
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding-top: 0.6rem;
+    color: #7F7F7F; }
+    .footer a img {
+      position: absolute;
+      left: 0.63rem;
+      top: 0.1rem; }
+  .footer a:first-child img {
+    width: 0.51rem;
+    height: 0.45rem; }
+  .footer a:nth-child(2) img {
+    width: 0.33rem;
+    height: 0.47rem; }
+  .footer a:nth-child(3) img {
+    width: 0.48rem;
+    height: 0.48rem; }
+  .footer a:nth-child(4) img {
+    width: 0.51rem;
+    height: 0.45rem; }
+
+/*# sourceMappingURL=lianxi.css.map */

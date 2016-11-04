@@ -1,0 +1,42 @@
+
+	<link rel="stylesheet" href="styles/chunqiu.css">
+	 
+
+	<div class="wrap" id="wrap">
+		<header class="header">
+			<span class="close" ng-click="sub()">关闭</span>
+			<h1>登录</h1>
+			<a href="./zhuce.html">注册</a>
+		</header>
+		<main class="main" id="main">
+			<div class="iscroll">
+				<div class="title">
+					<h2>春秋旅游</h2>
+					<h1>爱自由 牵手的旅游</h1>
+				</div>
+				<form action="" class="forms">
+					<p>
+						<input type="text" placeholder="手机号码/邮箱" id="txt" ng-model="username">
+						<span class="red" id="show">请输入手机或邮箱</span>
+					</p>
+					<p>
+						<input type="password" placeholder="密码(6-18个字符)" id="pass" ng-model="userpwd">
+						<span class="red" id="show2">密码不对</span>
+					</p>
+					
+				</form>
+				<input id="btn" type="button" ng-click="sub()" value="登录"/>
+				<div class="side">
+					<input type="checkbox" id="che">
+					<label for="che">
+					</label>
+					<span>下次自动登录</span>
+					<a href="#">忘记密码</a>
+				</div>
+			</div>
+			
+		</main>
+		
+	</div>
+
+	

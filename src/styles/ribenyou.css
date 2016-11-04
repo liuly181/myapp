@@ -1,0 +1,111 @@
+
+html, body, .wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 0.32rem; }
+
+.wrapper {
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+
+/*------header------*/
+.header {
+  width: 100%;
+  height: 0.89rem;
+  position: relative;
+  background: #fff;
+  z-index: 9999;
+  line-height: 0.89rem;
+  color: #1BBB75;
+  font-weight: 900;
+  font-size: 0.35rem;
+  text-align: center;
+  border-bottom: 1px solid #ccc; }
+  .header a {
+    width: 0.24rem;
+    height: 0.4rem;
+    background: url(../img/mudi1.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0.24rem;
+    top: 50%;
+    margin-top: -0.2rem; }
+  .header span {
+    width: 0.4rem;
+    height: 0.43rem;
+    background: url(../img/mudi2.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0.2rem;
+    top: 50%;
+    margin-top: -0.21rem; }
+
+/*--------main-------------*/
+.main {
+  position: relative;
+  z-index: 99;
+  -webkit-box-flex: 1; }
+  .main .nav {
+    width: 100%;
+    height: 0.94rem;
+    border-bottom: 1px solid #ccc; }
+    .main .nav a {
+      width: 20%;
+      height: 100%;
+      display: inline-block;
+      text-align: center;
+      padding-top: 0.3rem;
+      float: left;
+      color: #000; }
+  .main .content {
+    width: 100%;
+    height: 2.54rem;
+    padding: 0.15rem 0.27rem;
+    border-bottom: 1px solid #ccc; }
+    .main .content dl {
+      width: 100%;
+      height: 100%; }
+      .main .content dl dt {
+        float: left;
+        margin-right: 0.3rem; }
+        .main .content dl dt img {
+          width: 2.87rem;
+          height: 1.99rem; }
+      .main .content dl dd {
+        position: relative; }
+        .main .content dl dd p {
+          line-height: 0.45rem; }
+        .main .content dl dd span {
+          position: absolute;
+          right: 0.15rem;
+          bottom: 0rem;
+          color: #ccc; }
+          .main .content dl dd span b {
+            color: red; }
+
+.footer {
+  position: relative;
+  z-index: 9999;
+  width: 100%;
+  height: 1.09rem;
+  background: #3C3A49; }
+  .footer a {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding-top: 0.7rem;
+    color: #fff;
+    position: relative; }
+    .footer a img {
+      width: 0.48rem;
+      height: 0.48rem;
+      position: absolute;
+      left: 50%;
+      margin-left: -0.24rem;
+      top: 0.1rem; }
+
+/*# sourceMappingURL=ribenyou.css.map */

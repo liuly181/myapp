@@ -1,0 +1,107 @@
+
+html, body, .wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 0.32rem; }
+
+.wrapper {
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+
+.header {
+  width: 100%;
+  height: 0.97rem;
+  background: #fff;
+  position: relative;
+  z-index: 9999; }
+  .header h1 {
+    line-height: 0.97rem;
+    text-align: center;
+    color: #1BBB75;
+    font-size: 0.4rem;
+    font-weight: 600; }
+  .header a {
+    width: 0.24rem;
+    height: 0.4rem;
+    background: url(../img/mudi1.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0.2rem;
+    top: 50%;
+    margin-top: -0.2rem; }
+  .header span {
+    font-size: 0.4rem;
+    position: absolute;
+    right: 0.2rem;
+    top: 50%;
+    margin-top: -0.21rem; }
+
+/*--------main-------------*/
+.main {
+  -webkit-box-flex: 1;
+  width: 100%; }
+  .main .swiper-container {
+    width: 100%;
+    height: 3rem; }
+  .main .swiper-wrapper {
+    width: 300%;
+    height: 100%;
+    display: -webkit-box; }
+  .main .swiper-slide {
+    width: 100%;
+    height: 100%; }
+  .main .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    float: left; }
+  .main .title {
+    width: 100%;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    padding-left: 0.2rem; }
+    .main .title h1 {
+      color: red;
+      font-size: 0.4rem;
+      font-weight: 600; }
+  .main .tap {
+    width: 100%;
+    height: 3.89rem;
+    text-align: center;
+    line-height: 3.89rem; }
+    .main .tap img {
+      width: 7.11rem;
+      height: 3.89rem; }
+  .main .luck {
+    width: 100%;
+    height: 1.04rem;
+    margin-top: 0.27rem;
+    line-height: 1.04rem;
+    text-align: center;
+    color: #fff;
+    background: #E2C179;
+    font-weight: 600; }
+  .main .ps {
+    width: 100%;
+    height: 0.99rem;
+    line-height: 1rem;
+    border-bottom: 1px solid #ccc; }
+  .main .content {
+    width: 100%;
+    height: 1.85rem;
+    padding: 0.23rem 0.35rem; }
+    .main .content dl {
+      width: 100%;
+      height: 1.85;
+      margin-top: 0.2rem; }
+      .main .content dl dt {
+        float: left;
+        margin-right: 0.2rem; }
+        .main .content dl dt img {
+          display: inline-block;
+          width: 2.83rem;
+          height: 1.57rem; }
+
+/*# sourceMappingURL=youlun.css.map */

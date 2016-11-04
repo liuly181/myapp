@@ -1,0 +1,37 @@
+{
+	"mudi":[
+			{ 	
+				"img":"../img/mudi3.png",
+				"place":"日本",
+				"tit" :"春樱夏海 秋叶冬雪"
+			},
+			{ 	
+				"img":"../img/mudi4.png",
+				"place":"长白山",
+				"tit" :"避暑游"
+			},
+			{ 	
+				"img":"../img/mudi5.png",
+				"place":"三亚",
+				"tit" :"亲海之旅，约惠三亚"
+			},
+			{ 	
+				"img":"../img/mudi6.png",
+				"place":"桂林",
+				"tit" :"烟雨漓江  风情阳朔"
+				
+			},
+			{ 	
+				"img":"../img/mudi4.png",
+				"place":"桂林",
+				"tit" :"烟雨漓江  风情阳朔"
+				
+			},
+			{ 	
+				"img":"../img/mudi5.png",
+				"place":"桂林",
+				"tit" :"烟雨漓江  风情阳朔"
+				
+			}
+		]
+}

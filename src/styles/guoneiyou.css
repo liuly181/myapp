@@ -1,0 +1,181 @@
+
+html, body, .wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 0.32rem; }
+
+.wrapper {
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+
+.header {
+  width: 100%;
+  height: 0.97rem;
+  background: #fff;
+  position: relative;
+  z-index: 9999; }
+  .header h1 {
+    line-height: 0.97rem;
+    text-align: center;
+    color: #1BBB75; }
+  .header a {
+    width: 0.24rem;
+    height: 0.4rem;
+    background: url(../img/mudi1.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0.2rem;
+    top: 50%;
+    margin-top: -0.2rem; }
+  .header span {
+    width: 0.4rem;
+    height: 0.43rem;
+    background: url(../img/mudi2.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0.2rem;
+    top: 50%;
+    margin-top: -0.21rem; }
+
+/*--------main-------------*/
+.main {
+  -webkit-box-flex: 1;
+  width: 100%;
+  position: relative;
+  z-index: 99; }
+  .main .swiper-container {
+    width: 100%;
+    height: 3.36rem;
+    position: relative; }
+  .main .swiper-wrapper {
+    width: 300%;
+    height: 100%;
+    display: -webkit-box; }
+  .main .swiper-slide {
+    width: 100%;
+    height: 100%; }
+  .main .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    float: left; }
+  .main .pagination {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    width: 100%;
+    height: 20px; }
+  .main .swiper-pagination-switch {
+    width: 10px;
+    border-radius: 10px;
+    background: pink;
+    height: 10px;
+    display: inline-block; }
+  .main .swiper-active-switch {
+    background: red; }
+  .main .title {
+    width: 100%;
+    height: 0.99rem;
+    margin-top: 0.35rem;
+    line-height: 0.99rem; }
+    .main .title h3 {
+      padding-left: 0.16rem; }
+      .main .title h3 span {
+        width: 0.08rem;
+        height: 0.35rem;
+        background: red;
+        display: inline-block;
+        margin-right: 0.3rem; }
+  .main .love {
+    width: 100%;
+    height: 2.47rem;
+    dding: 0 0.13rem;
+    
+     }
+    .main .love a {
+      width: 48%;
+      height: 100%;
+      display: inline-block;
+      padding-left: 0.13rem; }
+      .main .love a img {
+        width: 100%;
+        height: 100%; }
+  .main .text {
+    width: 100%;
+    padding: 0.1rem;
+    height: 1.44rem;
+    margin-top: 0.38rem; }
+    .main .text ul {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #ccc;
+      display: -webkit-box; }
+      .main .text ul li {
+        width: 33.3%;
+        height: 100%;
+        border-right: 1px solid #ccc;
+        text-align: center; }
+        .main .text ul li h1 {
+          font-style: 0.4rem;
+          font-weight: 600;
+          margin: 0.2rem 0; }
+        .main .text ul li p {
+          font-size: 0.12rem; }
+      .main .text ul li:first-child h1 {
+        color: #FE0000; }
+      .main .text ul li:nth-child(2) h1 {
+        color: #2F6FED; }
+      .main .text ul li:last-child {
+        border-right: none; }
+        .main .text ul li:last-child h1 {
+          color: #14C20B; }
+  .main .subnav {
+    width: 100%;
+    height: 3.69rem;
+    margin-top: 0.51rem; }
+    .main .subnav ol {
+      width: 100%;
+      height: 0.99rem;
+      line-height: 0.99rem;
+      display: -webkit-box;
+      -webkit-box-pack: justify;
+      border-bottom: 1px solid #ccc; }
+      .main .subnav ol li {
+        width: 50%;
+        text-align: center; }
+    .main .subnav .content {
+      width: 100%;
+      height: 2.72rem;
+      padding: 0.23rem; }
+      .main .subnav .content dl {
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        -webkit-box-pack: justify;
+        position: relative; }
+        .main .subnav .content dl dt img {
+          width: 2.78rem;
+          height: 1.97rem; }
+        .main .subnav .content dl dd {
+          padding-left: 0.2rem; }
+          .main .subnav .content dl dd p span {
+            padding: 0.08rem 0.22rem;
+            background: #08E6C4;
+            color: #fff; }
+          .main .subnav .content dl dd p i {
+            font-style: normal;
+            margin-left: 0.32rem; }
+          .main .subnav .content dl dd h3 {
+            margin-top: 0.23rem;
+            line-height: 0.55rem; }
+          .main .subnav .content dl dd h6 {
+            position: absolute;
+            right: 0.2rem; }
+            .main .subnav .content dl dd h6 b {
+              color: red; }
+    .main .subnav .content2 {
+      display: none; }
+
+/*# sourceMappingURL=guoneiyou.css.map */

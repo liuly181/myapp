@@ -1,0 +1,24 @@
+{
+  "name": "lvyou1",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "liu"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "angularjs#^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "oclazyload": "^1.0.9"
+  }
+}

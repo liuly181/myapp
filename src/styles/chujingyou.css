@@ -1,0 +1,161 @@
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 0.32rem; }
+
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+
+.header {
+  width: 100%;
+  height: 0.97rem;
+  background: #fff;
+  position: relative;
+  z-index: 9999; }
+  .header h1 {
+    line-height: 0.97rem;
+    text-align: center;
+    color: #1BBB75; }
+  .header a {
+    width: 0.24rem;
+    height: 0.4rem;
+    background: url(../img/mudi1.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0.2rem;
+    top: 50%;
+    margin-top: -0.2rem; }
+  .header span {
+    width: 0.4rem;
+    height: 0.43rem;
+    background: url(../img/mudi2.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0.2rem!important;
+    top: 50%;
+    margin-top: -0.21rem; }
+
+/*--------main-------------*/
+.main {
+  -webkit-box-flex: 1;
+  position: relative;
+  z-index: 99; }
+  .main .swiper-container {
+    width: 100%;
+    height: 3.36rem;
+    position: relative; }
+  .main .swiper-wrapper {
+    width: 300%;
+    height: 100%;
+    display: -webkit-box; }
+  .main .swiper-slide {
+    width: 100%;
+    height: 100%; }
+  .main .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    float: left; }
+  .main .pagination {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    width: 100%;
+    height: 20px; }
+  .main .swiper-pagination-switch {
+    width: 10px;
+    border-radius: 10px;
+    background: pink;
+    height: 10px;
+    display: inline-block; }
+  .main .swiper-active-switch {
+    background: red; }
+  .main .title {
+    width: 100%;
+    height: 0.99rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: 0.35rem;
+    line-height: 0.99rem; }
+    .main .title b {
+      font-size: 0.4rem;
+      margin-left: 0.25rem; }
+    .main .title span {
+      font-size: 0.36rem;
+      margin-left: 0.3rem; }
+  .main .love {
+    width: 100%;
+    height: 2.94rem;
+    padding: 0 0.23rem; }
+    .main .love h1 {
+      font-size: 0.4rem;
+      color: #2B35F8;
+      margin-top: 0.81rem;
+      margin-bottom: 0.38rem;
+      font-weight: 600; }
+    .main .love ul {
+      width: 100%;
+      margin-bottom: 0.21rem;
+      display: -webkit-box;
+      -webkit-box-pack: justify; }
+      .main .love ul li {
+        width: 21.3%;
+        text-align: center;
+        line-height: 0.56rem;
+        height: 0.56rem;
+        border: 1px solid #ccc;
+        border-radius: 0.1rem; }
+        .main .love ul li a {
+          color: #000; }
+  .main .subnav {
+    width: 100%;
+    height: 3.69rem;
+    margin-top: 0.51rem; }
+    .main .subnav ol {
+      width: 100%;
+      height: 0.99rem;
+      line-height: 0.99rem;
+      display: -webkit-box;
+      -webkit-box-pack: justify;
+      border-bottom: 1px solid #ccc; }
+      .main .subnav ol li {
+        width: 50%;
+        text-align: center; }
+    .main .subnav .content {
+      width: 100%;
+      height: 2.72rem;
+      padding: 0.23rem; }
+      .main .subnav .content dl {
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        -webkit-box-pack: justify;
+        position: relative; }
+        .main .subnav .content dl dt img {
+          width: 2.78rem;
+          height: 1.97rem; }
+        .main .subnav .content dl dd {
+          padding-left: 0.2rem; }
+          .main .subnav .content dl dd p span {
+            padding: 0.08rem 0.22rem;
+            background: #08E6C4;
+            color: #fff; }
+          .main .subnav .content dl dd p i {
+            font-style: normal;
+            margin-left: 0.32rem; }
+          .main .subnav .content dl dd h3 {
+            margin-top: 0.23rem;
+            line-height: 0.55rem; }
+          .main .subnav .content dl dd h6 {
+            position: absolute;
+            right: 0.2rem; }
+            .main .subnav .content dl dd h6 b {
+              color: red; }
+    .main .subnav .content2 {
+      display: none; }
+
+/*# sourceMappingURL=chujingyou.css.map */

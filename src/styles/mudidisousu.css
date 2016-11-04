@@ -1,0 +1,70 @@
+@import url("reset.css");
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: 0.32rem; }
+
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+
+.header {
+  width: 100%;
+  height: 0.97rem;
+  background: #fff;
+  position: relative;
+  z-index: 9999;
+  border-bottom: 1px solid #ccc; }
+  .header h1 {
+    line-height: 0.97rem;
+    text-align: center;
+    color: #1BBB75; }
+  .header a {
+    width: 0.24rem;
+    height: 0.4rem;
+    background: url(../img/mudi1.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0.2rem;
+    top: 50%;
+    margin-top: -0.2rem; }
+
+/*--------main-------------*/
+.main {
+  -webkit-box-flex: 1;
+  width: 100%;
+  padding: 0 0.15rem; }
+  .main .ps {
+    width: 100%;
+    height: 0.9rem;
+    margin-top: 0.21rem;
+    height: 0.51rem;
+    display: -webkit-box;
+    -webkit-box-pack: justify; }
+    .main .ps h2 {
+      width: 25%;
+      border: 1px solid #ccc;
+      text-align: center;
+      line-height: 0.56rem; }
+      .main .ps h2 span {
+        background: url(../img/weizhi.png) no-repeat left center;
+        padding-left: 0.4rem;
+        background-size: contain; }
+    .main .ps p {
+      width: 73%;
+      border: 1px solid #ccc;
+      text-align: center;
+      line-height: 0.56rem; }
+  .main .cur {
+    width: 100%;
+    height: 0.9rem;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.9rem;
+    font-size: 0.37rem; }
+  .main .jing {
+    font-size: 0.3rem; }
+
+/*# sourceMappingURL=mudidisousu.css.map */

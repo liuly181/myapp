@@ -1,0 +1,56 @@
+
+	
+		<header class="header">
+			<a ui-sref="main"></a>
+			<h1>邮轮</h1>
+			<span>特价</span>
+		</header>
+		<main class="main" id="main">
+			<div class="iscroll">
+				<div class="swiper-container">
+					  <ul class="swiper-wrapper">
+					      <li class="swiper-slide">
+					      	<img src="../img/youlun1.png" alt=""> </li>
+					      <li class="swiper-slide"> <img src="../img/youlun1.png" alt=""></li>
+					      <li class="swiper-slide"> <img src="../img/youlun1.png" alt=""></li>
+					  </ul>
+				 		<!-- 分页器样式没有写完 -->
+					  <!-- <ol class="pagination">
+					  	<li class="swiper-pagination-switch"></li>
+					  	<li class="swiper-pagination-switch"></li>
+					  	<li class="swiper-pagination-switch"></li>
+					  </ol> -->
+				</div>
+				<div class="title">
+					<h1>热门航线</h1>
+				</div>
+				<div class="tap">
+					<img src="../img/youlun2.jpg" alt="">
+				</div>
+				<div class="luck">
+					<p>身临其境 幸运号实景体验</p>
+				</div>
+				<div class="ps">
+					<p>推荐产品</p>
+				</div>
+				<div class="content" ng-repeat="i in data">
+					<dl>
+						<dt>
+							<img src="{{i.img}}" alt="">
+						</dt>
+						<dd>
+							{{i.content}}
+						</dd>
+					</dl>
+
+				</div>
+			
+			</div>
+			
+			
+		</main>
+		
+		
+	
+
+	
